@@ -1,6 +1,6 @@
 -- ============================================================
 -- change_ped : menu de changement de ped (MenuV)
--- F7 ou change_ped pour ouvrir le menu.
+-- F1 ou change_ped pour ouvrir le menu.
 -- ============================================================
 
 local pedModels = {
@@ -372,8 +372,8 @@ fermerButton:On('select', function()
     changePedMenu:Close()
 end)
 
--- Ouverture avec F7 (gérée par MenuV)
-changePedMenu:OpenWith('KEYBOARD', 'F7')
+-- Ouverture avec F1 (gérée par MenuV)
+changePedMenu:OpenWith('KEYBOARD', 'F1')
 
 -- Commande de secours (console F8) : change_ped
 RegisterCommand('change_ped', function()

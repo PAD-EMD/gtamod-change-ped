@@ -14,22 +14,18 @@ Change le modèle du personnage, au hasard ou à ton choix.
 ## Prérequis
 
 - Serveur FiveM à jour avec accès admin
+- Ressource [MenuV](https://github.com/MenuV/MenuV) installée et démarrée avant ce mod
 
 ## Installation
 
 1. Télécharge le dossier `change_ped`
 2. Copie le dossier `change_ped` dans `resources/`
-3. Ajoute `ensure change_ped` dans ton `server.cfg`
+3. Ajoute `ensure menuv` puis `ensure change_ped` dans ton `server.cfg`
 4. Redémarre le serveur
 
 ## Utilisation
 
-Commandes, touches ou événements, par exemple :
-
-```
-> changeped            -- modèle aléatoire
-> changeped <modèle>   -- modèle choisi
-```
+Appuie sur **F1** pour ouvrir le menu, puis choisis « Aléatoire » (modèle au hasard) ou « Choisir » (saisie du nom exact du modèle, par exemple `a_m_m_beach_01`). En secours, la commande `change_ped` dans la console F8 ouvre aussi le menu.
 
 ## Structure du dossier
 

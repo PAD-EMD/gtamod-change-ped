@@ -12,5 +12,5 @@ dependencies {
 
 client_scripts {
     '@menuv/menuv.lua',
-    'change_ped_script_2.lua'
+    'client.lua'
 }
